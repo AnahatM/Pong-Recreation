@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1, y: -0.6}
+  m_AnchoredPosition: {x: 0, y: -2}
   m_SizeDelta: {x: 1.5, y: 0.3}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &6156338026362066673
@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 2097152000
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.49019608}
+    rgba: 2113929215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92,14 +92,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.5
-  m_fontSizeBase: 0.5
+  m_fontSize: 1.5
+  m_fontSizeBase: 1.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -0.5
@@ -318,6 +318,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bedce9acab08f448b4cb7fff5ef11d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countdownText: {fileID: 5883909600827015304}
+  leftScoreText: {fileID: 847650645119852302}
+  rightScoreText: {fileID: 2445892077537760360}
+  leftPaddle: {fileID: 0}
+  rightPaddle: {fileID: 0}
+  countdownTime: 3
+  scoreToWin: 5
 --- !u!1 &3925655294847758852
 GameObject:
   m_ObjectHideFlags: 0
