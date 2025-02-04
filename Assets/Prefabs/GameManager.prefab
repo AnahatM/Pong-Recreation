@@ -325,6 +325,7 @@ MonoBehaviour:
   rightPaddle: {fileID: 0}
   countdownTime: 3
   scoreToWin: 5
+  goText: Go!
 --- !u!1 &3925655294847758852
 GameObject:
   m_ObjectHideFlags: 0
