@@ -4,6 +4,11 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Input")]
+    [SerializeField] private bool enableKeyboardInput = true; // Will be false on main menu
+    [SerializeField] private KeyCode menuKey = KeyCode.Escape;
+    [SerializeField] private KeyCode reloadKey = KeyCode.R;
+
     [Header("UI References")]
     [SerializeField] private TextMeshProUGUI countdownText;
     [SerializeField] private TextMeshProUGUI leftScoreText;
@@ -23,16 +28,33 @@ public class GameManager : MonoBehaviour
     public int LeftScore { get; set; } = 0;
     public int RightScore { get; set; } = 0;
 
+    private SceneLoader sceneLoader;
     private BallMovement ball;
 
     private void Awake()
     {
+        sceneLoader = FindFirstObjectByType<SceneLoader>();
         ball = FindFirstObjectByType<BallMovement>();
     }
 
     private void Start()
     {
         StartCoroutine(NewRound());
+    }
+
+    private void Update()
+    {
+        CheckInput();
+    }
+
+    private void CheckInput()
+    {
+        if (!enableKeyboardInput) return;
+
+        if (Input.GetKeyDown(menuKey))
+            sceneLoader.LoadScene("MainMenu");
+        if (Input.GetKeyDown(reloadKey))
+            sceneLoader.ReloadCurrentScene();
     }
 
     private IEnumerator CountdownAndStartRound()

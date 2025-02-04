@@ -54,5 +54,8 @@ TagManager:
   - name: Paddle
     uniqueID: 2241199659
     locked: 0
+  - name: UI
+    uniqueID: 834320927
+    locked: 0
   m_RenderingLayers:
   - Default
