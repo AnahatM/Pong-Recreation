@@ -3,9 +3,7 @@
 Play a modern version of the classic arcade game Pong, against a friend, or a computer.
 The game features unique controls and stunning lighting.
 
-<img src="https://img.itch.zone/aW1nLzE5NzIyNjM3LnBuZw==/original/Tyzecx.png" alt="Cover Image" width=450px /><img src="https://img.itch.zone/aW1hZ2UvMzMwMjUxMy8xOTcyMjIyNC5wbmc=/original/Y9Cr6J.png" alt="Cover Image" width=450px />
-<img src="https://img.itch.zone/aW1hZ2UvMzMwMjUxMy8xOTcyMjIyNy5wbmc=/original/STbXHF.png" alt="Cover Image" width=450px />
-<img src="https://img.itch.zone/aW1hZ2UvMzMwMjUxMy8xOTcyMjIyNi5wbmc=/original/8vVYpI.png" alt="Cover Image" width=450px />
+<img src="https://img.itch.zone/aW1nLzE5NzIyNjM3LnBuZw==/original/Tyzecx.png" alt="Cover Image" width=450px />
 
 [![Play Game](https://img.shields.io/badge/Itch.io-Play_Online-green)](https://anahatm.itch.io/pong-advanced)
 [![Game Website](https://img.shields.io/badge/Website_Page-Pong:_Arcade_Recreation-blue)](https://AnahatMudgal.com/games/pomg-arcade-recreation)
@@ -29,3 +27,9 @@ To play the game from the windows folder, download it, unzip the downloaded .zip
 | Right Side | Up or Down Arrow Keys to move up and down |
 | Menu | Click ESC (Escape) to return to the main menu |
 | Reload | Click the R key to reload the game |
+
+<br />
+
+<img src="https://img.itch.zone/aW1hZ2UvMzMwMjUxMy8xOTcyMjIyNC5wbmc=/original/Y9Cr6J.png" alt="Cover Image" width=450px />
+<img src="https://img.itch.zone/aW1hZ2UvMzMwMjUxMy8xOTcyMjIyNy5wbmc=/original/STbXHF.png" alt="Cover Image" width=450px />
+<img src="https://img.itch.zone/aW1hZ2UvMzMwMjUxMy8xOTcyMjIyNi5wbmc=/original/8vVYpI.png" alt="Cover Image" width=450px />
